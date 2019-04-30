@@ -65,6 +65,7 @@ int main ()
 	char filename[32];
 
 	system ("rm -rf foo*.txt");
+	//remove("secure.txt");
 
 	if (filesys_init() == 1) {
 		printf ("Unable to init filesys\n");

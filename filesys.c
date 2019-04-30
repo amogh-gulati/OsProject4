@@ -21,6 +21,7 @@ struct Node
 };
 
 struct Node *top;
+struct Node *base;
 
 int fc = 0;
 /* returns 20 bytes unique hash of the buffer (buf) of length (len)
@@ -121,8 +122,11 @@ void makeMerk(struct Node *head,struct Node *carry,int base)
 		build = new;
 		strcpy(build->block,first->hash);
 		strcat(build->block,second->hash);
-		free(first);
-		free(second);
+		if(base!=1)
+        {
+		    free(first);
+            free(second);
+        }
 	}
 	doHash(h,40);
 	makeMerk(h,c,0);
@@ -137,7 +141,7 @@ int calculateHash(const char *pathname)
 	if(fptr == NULL)
 	{
 		printf("cannot open file");
-		return -1;
+		return 2;
 	}
 	fflush(fptr);
 	struct Node *head = (struct Node*)malloc(sizeof(struct Node));
@@ -266,6 +270,12 @@ int s_open (const char *pathname, int flags, mode_t mode)
 {
 	assert (filesys_inited);
 	printf("opening the file %s\n",pathname);
+	int flag = 0;
+	FILE *fptr = fopen(pathname,"r");
+	if (fptr==NULL)
+	    flag=1;
+	else
+	    fclose(fptr);
 	int fd = open(pathname,flags,mode);
 	if (fd==-1)
 	{
@@ -276,7 +286,7 @@ int s_open (const char *pathname, int flags, mode_t mode)
 	//to create the file if it was not there
 	int check = checkHash(pathname);
 	printf("%d\n",check);
-    if(check==-1 )
+    if(check==-1 && flag==0 )
     {
         printf("fails \n");
         top->fd = -1;
@@ -455,33 +465,60 @@ int s_close (int fd)
 int filesys_init (void)
 {
 	filesys_inited = 1;
-    return 0;
-    int fd1 = open ("secure.txt",O_RDWR,777);
+    int fd1 = open ("secure.txt",O_RDWR ,777);
+    if(fd1<0)
+    {
+        FILE *stream = fopen("secure.txt","a");
+        fclose(stream);
+    }
+    fd1 = open ("secure.txt",O_RDWR ,777);
     char buf[31];
     int sz = 0;
     printf("in filesys init \n");
-    for(int i=0;i<fc;i++)
+    while(1)
     {
         sz = read(fd1,buf, sizeof(buf));
+        if(sz< sizeof(buf))
+            break;
         printf("%d\n",sz);
         buf[sz] = '\0';
-        printf("%s",buf);
+        printf("%s\n",buf);
         char name[10];
         strncpy(name,buf,9);
-        printf("%s\n",name);
-        calculateHash(name);
-        char newhash[20];
-        for(int j=0;j<20;j++)
-            newhash[j]=buf[10+j];
-        if (strcmp(newhash,top->hash)==0)
+        name[9] = '\0';
+        printf("this is the file %s\n",name);
+        int a = calculateHash(name);
+        if(a==0)
         {
-            printf("fine\n");
-        }
-        else
-        {
-            return -1;
+            char newhash[20];
+            for(int j=0;j<20;j++)
+                newhash[j]=buf[10+j];
+            printf("this is the hash%s\n",newhash);
+            if (strncmp(newhash,top->hash,19)==0)
+            {
+                printf("fine\n");
+            }
+            else
+            {
+                printf("the hashes dont match\n");
+                return 1;
+            }
         }
     }
     close(fd1);
-	return 0;
+    printf("returning true");
+    return 0;
+//    char var1[20];
+//    char var2[20];
+//
+//    //FILE *ofs = fopen("sEcRet.txt", "w");
+//    while(fscanf(stream, "%s %s\n", var1, var2) != EOF) {
+//        printf("this is the file%s\n",var1);
+//        calculateHash(var1);
+//        printf("%s\n",var2);
+//        if(strncmp(var2,top->hash,19)!=0)
+//            return 1;
+//    }
+//    fclose(stream);
+//	return 0;
 }

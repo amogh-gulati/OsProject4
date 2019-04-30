@@ -1,27 +1,57 @@
 ./base
-opening the file foo_0.txt
+in filesys init 
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_0.txt
+cannot open file31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_1.txt
+cannot open file31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_2.txt
+cannot open file31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_3.txt
+cannot open file31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_4.txt
+cannot open file31
+foo_5.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_5.txt
+cannot open file31
+foo_6.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_6.txt
+cannot open file31
+foo_7.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_7.txt
+cannot open filereturning trueopening the file foo_0.txt
 we have the final hash
 %ŸÛl¿êÐ[¦ÂÕsuŽóç3´
-foo_0.txt was not present in secure.txt
-writing to file secure.txt
-1
+foo_0.txt
+we matched the pathname
+we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+-1
 not fails
 we have the final hash
 Éî[XN¢¡"ùè›i>Ž]·IJ•¦
 closing file foo_0.txt
 with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
 in update secure
-31
-foo_0.txt %ŸÛl¿êÐ[¦ÂÕsuŽóç3´
-we have a match
 leaving
 opening the file foo_0.txt
 we have the final hash
 Éî[XN¢¡"ùè›i>Ž]·IJ•¦
-foo_0.txt
-we matched the pathname
-we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
-0
+foo_0.txt was not present in secure.txt
+writing to file secure.txt
+1
 not fails
 we have the final hash
 Éî[XN¢¡"ùè›i>Ž]·IJ•¦
@@ -488,7 +518,72 @@ foo_7.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
 we have a match
 leaving
 ./testcase1
-opening the file foo_0.txt
+in filesys init 
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_0.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ý
+fine
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_1.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ý
+fine
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_2.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ý
+fine
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_3.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ý
+fine
+31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_4.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ý
+fine
+31
+foo_5.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_5.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ý
+fine
+31
+foo_6.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_6.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ý
+fine
+31
+foo_7.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_7.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ý
+fine
+returning trueopening the file foo_0.txt
 we have the final hash
 Éî[XN¢¡"ùè›i>Ž]·IJ•¦
 foo_0.txt
@@ -609,3 +704,589 @@ we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
 -1
 fails 
 open test passed
+./base
+in filesys init 
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_0.txt
+cannot open file31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_1.txt
+cannot open file31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_2.txt
+cannot open file31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_3.txt
+cannot open file31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_4.txt
+cannot open file31
+foo_5.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_5.txt
+cannot open file31
+foo_6.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_6.txt
+cannot open file31
+foo_7.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_7.txt
+cannot open filereturning trueopening the file foo_0.txt
+we have the final hash
+%ŸÛl¿êÐ[¦ÂÕsuŽóç3´
+foo_0.txt
+we matched the pathname
+we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+-1
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_0.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+leaving
+opening the file foo_0.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_0.txt was not present in secure.txt
+writing to file secure.txt
+1
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_0.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+we have a match
+leaving
+opening the file foo_1.txt
+we have the final hash
+ã¥oÃy/J4¼]@€Ñ¥$
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt was not present in secure.txt
+writing to file secure.txt
+1
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_1.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt ã¥oÃy/J4¼]@€Ñ¥$
+we have a match
+leaving
+opening the file foo_1.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+we matched the pathname
+we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+0
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_1.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+we have a match
+leaving
+opening the file foo_2.txt
+we have the final hash
+ã¥oÃy/J4¼]@€Ñ¥$
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt was not present in secure.txt
+writing to file secure.txt
+1
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_2.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt ã¥oÃy/J4¼]@€Ñ¥$
+we have a match
+leaving
+opening the file foo_2.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+we matched the pathname
+we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+0
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_2.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+we have a match
+leaving
+opening the file foo_3.txt
+we have the final hash
+ã¥oÃy/J4¼]@€Ñ¥$
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_3.txt was not present in secure.txt
+writing to file secure.txt
+1
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_3.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_3.txt ã¥oÃy/J4¼]@€Ñ¥$
+we have a match
+leaving
+opening the file foo_3.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_3.txt
+we matched the pathname
+we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+0
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_3.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+we have a match
+leaving
+opening the file foo_4.txt
+we have the final hash
+ã¥oÃy/J4¼]@€Ñ¥$
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_3.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_4.txt was not present in secure.txt
+writing to file secure.txt
+1
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_4.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_4.txt ã¥oÃy/J4¼]@€Ñ¥$
+we have a match
+leaving
+opening the file foo_4.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_3.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_4.txt
+we matched the pathname
+we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+0
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_4.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+we have a match
+leaving
+opening the file foo_5.txt
+we have the final hash
+ã¥oÃy/J4¼]@€Ñ¥$
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_3.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_4.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_5.txt was not present in secure.txt
+writing to file secure.txt
+1
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_5.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_5.txt ã¥oÃy/J4¼]@€Ñ¥$
+we have a match
+leaving
+opening the file foo_5.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_3.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_4.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_5.txt
+we matched the pathname
+we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+0
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_5.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_5.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+we have a match
+leaving
+opening the file foo_6.txt
+we have the final hash
+ã¥oÃy/J4¼]@€Ñ¥$
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_3.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_4.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_5.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_6.txt was not present in secure.txt
+writing to file secure.txt
+1
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_6.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_5.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_6.txt ã¥oÃy/J4¼]@€Ñ¥$
+we have a match
+leaving
+opening the file foo_6.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_3.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_4.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_5.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_6.txt
+we matched the pathname
+we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+0
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_6.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_5.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_6.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+we have a match
+leaving
+opening the file foo_7.txt
+we have the final hash
+ã¥oÃy/J4¼]@€Ñ¥$
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_3.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_4.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_5.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_6.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_7.txt was not present in secure.txt
+writing to file secure.txt
+1
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_7.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_5.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_6.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_7.txt ã¥oÃy/J4¼]@€Ñ¥$
+we have a match
+leaving
+opening the file foo_7.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_0.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_1.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_2.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_3.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_4.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_5.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_6.txt
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+foo_7.txt
+we matched the pathname
+we have the hash from file Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+0
+not fails
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+closing file foo_7.txt
+with hash Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+in update secure
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_5.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_6.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+31
+foo_7.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+we have a match
+leaving
+./testcase4	
+in filesys init 
+31
+foo_0.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_0.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ü
+fine
+31
+foo_1.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_1.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ü
+fine
+31
+foo_2.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_2.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ü
+fine
+31
+foo_3.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_3.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ü
+fine
+31
+foo_4.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_4.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ü
+fine
+31
+foo_5.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_5.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ü
+fine
+31
+foo_6.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_6.txt
+we have the final hash
+Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ü
+fine
+31
+foo_7.txt Éî[XN¢¡"ùè›i>Ž]·IJ•¦
+
+this is the file foo_7.txt
+we have the final hash
+„*,òÇ¨kQéèì¥°×ªü‚$¼
+this is the hashÉî[XN¢¡"ùè›i>Ž]·IJ•¦ü
+the hashes dont match
+init filesys test passed
